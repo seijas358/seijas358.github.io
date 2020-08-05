@@ -1,0 +1,195 @@
+/* css style */
+p, li{
+  color: #1b262c;
+  font-family: "Montserrat";
+  font-weight: 300;
+  /* font-size: 1rem; */
+}
+
+a{
+  color: #0f4c75;
+}
+
+
+h4, h2{
+font-family: "Open Sans";
+}
+
+h2{
+  letter-spacing: 0.6rem;
+}
+
+hr{
+  border-top: 3px solid #0f4c75;
+  width: 80%;
+  margin: 0 0;
+  text-align: right;
+  float: right;
+}
+
+/* title */
+#title{
+  background-color: #0f4c75;
+}
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.banner-imagen{
+width: 50%;
+}
+
+.banner-col-derecha{
+  text-align: right;
+}
+.navbar{
+  padding-bottom: 3.5rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nav-item{
+  margin-right: 2.5%
+}
+
+.banner-col-izq{
+  text-align: left;
+  color: white;
+
+
+}
+
+.h1-title{
+  font-size: 3.5rem;
+  font-family: "Open Sans";
+  font-weight: 300;
+  padding-bottom: 20px;
+
+}
+
+
+/* ABOUT ME */
+
+#about-me{
+  background-color: #ebecf1;
+}
+
+.h1-about-me{
+  font-size: 3.5rem;
+   letter-spacing: 1.2rem;
+  font-family: "Open Sans";
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+.about-me-col-izq{
+  text-align: right;
+}
+
+.marco {
+   padding:8px;
+   background-color: #f5f5f5;
+   width: 200px;
+   border: 2px solid #999999;
+}
+
+
+
+/* SKILLES */
+#skill{
+  background-color: #0f4c75;
+}
+.h1-skill{
+  font-size: 3.5rem;
+   letter-spacing: 1.2rem;
+  font-family: "Open Sans";
+  font-weight: 300;
+  padding-bottom: 20px;
+  color: white;
+}
+.card-img{
+
+  width: 50%;
+  text-align: center;
+}
+.card-img-learning{
+  width: 30%;
+  text-align: center;
+}
+
+.card-dimension{
+height: 400px;
+width: 400px;
+
+}
+.card{
+  text-align: center;
+}
+
+
+/* CONTACT */
+
+#contact{
+  background-color:#ebecf1;
+}
+
+.contact-col-derecha{
+  text-align: right;
+  border-right: 3px solid #0f4c75;
+  padding-right: 0;
+}
+
+.social-media{
+position: relative;
+}
+
+.icon{
+  margin-bottom: 20px;
+}
+
+.icon-fake{
+  color: #ebecf1;
+}
+
+
+/* FOOTER */
+#footer{
+  background-color: #fdcb9e;
+  text-align: center;
+}
+
+#footer .container-fluid{
+  padding: 2% 15% 1%;
+}
+
+/* tablet resolution */
+
+@media (max-width: 1028px){
+
+ .banner-col-izq{
+   /* text-align: center; */
+}
+/* .banner-col-derecha{
+text-align: center;
+} */
+
+}
+
+/* phone resolution */
+@media (max-width: 991px){
+  .banner-col-derecha{
+/* text-align: center; */
+  }
+  .banner-imagen{
+    width: 90%;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner-col-derecha{
+    display: none;
+  }
+}
